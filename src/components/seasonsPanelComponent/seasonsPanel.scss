@@ -1,0 +1,35 @@
+.season--year {
+  display: flex;
+  align-items: baseline;
+  &__label {
+    margin-right: 8px;
+    font-size: 18px;
+    font-weight: 600;
+  }
+  &__input {
+    width: 128px;
+    padding: 8px 6px;
+  }
+}
+
+.season--wrapper {
+  margin-bottom: 32px;
+}
+.season--wrapper__name {
+  margin: 16px 0;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.season--dates {
+  width: 640px;
+  display: flex;
+}
+.season--dates__starts,
+.season--dates__ends {
+  padding: 8px 6px;
+}
+
+.season--dates__starts {
+  margin-right: 16px;
+}

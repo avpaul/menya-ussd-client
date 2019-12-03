@@ -1,0 +1,17 @@
+.input--wrapper {
+  width: 640px;
+  margin: 8px 0;
+}
+
+.input {
+  width: 100%;
+  padding: 12px 8px;
+  font-size: 18px;
+  border: 1px solid #cccccc;
+
+  &:focus {
+    outline: none;
+    border: 1px solid #999999;
+    box-shadow: 0 0 5px 1px #cccccc;
+  }
+}
